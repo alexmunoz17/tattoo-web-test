@@ -9,10 +9,10 @@ A fully functional, production-ready React website for Zeros Tattoo studio in ZÃ
 **Tech Stack:**
 - React 19.1.1
 - Vite 7.1.7
-- Tailwind CSS 4.1.16
+- Tailwind CSS 3.4.17
 - React Router 7.9.4
 - React Icons
-- React Helmet Async (for SEO)
+- Native SEO implementation (no external dependencies)
 
 ### Pages Implemented
 
@@ -116,7 +116,6 @@ All in `src/assets/svg/`:
 ```bash
 npm install
 ```
-(Note: You may need to run `npm install react-helmet-async` separately due to permission issues encountered)
 
 #### 2. Replace Placeholder Content
 

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- German pages -->
+  <url>
+    <loc>https://zeros-tattoo.ch/de</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zeros-tattoo.ch/de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zeros-tattoo.ch/en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zeros-tattoo.ch/es"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://zeros-tattoo.ch/de/gallery</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zeros-tattoo.ch/de/gallery"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zeros-tattoo.ch/en/gallery"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zeros-tattoo.ch/es/gallery"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zeros-tattoo.ch/de/artist</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zeros-tattoo.ch/de/artist"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zeros-tattoo.ch/en/artist"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zeros-tattoo.ch/es/artist"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zeros-tattoo.ch/de/about</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zeros-tattoo.ch/de/about"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zeros-tattoo.ch/en/about"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zeros-tattoo.ch/es/about"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zeros-tattoo.ch/de/contact</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zeros-tattoo.ch/de/contact"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zeros-tattoo.ch/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zeros-tattoo.ch/es/contact"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- English pages -->
+  <url>
+    <loc>https://zeros-tattoo.ch/en</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zeros-tattoo.ch/de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zeros-tattoo.ch/en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zeros-tattoo.ch/es"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Spanish pages -->
+  <url>
+    <loc>https://zeros-tattoo.ch/es</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://zeros-tattoo.ch/de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zeros-tattoo.ch/en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://zeros-tattoo.ch/es"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+</urlset>

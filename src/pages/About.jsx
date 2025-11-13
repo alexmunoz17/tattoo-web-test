@@ -1,5 +1,4 @@
 import { t } from '../utils/i18n';
-import { FiInstagram, FiMail, FiPhone } from 'react-icons/fi';
 
 function About({ lang }) {
   return (

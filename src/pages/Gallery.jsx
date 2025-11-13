@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { t } from '../utils/i18n';
-import { FiFilter, FiX, FiHeart, FiMessageCircle } from 'react-icons/fi';
+import { FiFilter, FiX } from 'react-icons/fi';
 
 // Import your images here
 import finelineImage from '../assets/images/fineline.jpeg';

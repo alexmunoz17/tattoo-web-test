@@ -1,7 +1,7 @@
 import Hero from '../components/Hero';
 import { t } from '../utils/i18n';
 import { Link } from 'react-router-dom';
-import { FiCheck, FiArrowRight } from 'react-icons/fi';
+import { FiArrowRight } from 'react-icons/fi';
 
 function Home({ lang }) {
   return (

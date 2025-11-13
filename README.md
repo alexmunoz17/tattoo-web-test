@@ -70,7 +70,7 @@ public/
 - ✅ Hero section with gradient effects
 - ✅ Gallery with filters and lightbox
 - ✅ Artist profile page
-- ✅ Contact page with form and Google Maps
+- ✅ Contact page with clickable contact methods and Google Maps
 - ✅ FAQ with accordion
 - ✅ Pricing guide
 - ✅ Legal/Impressum page
@@ -87,9 +87,8 @@ public/
 - 🔄 AI-generated hero image (currently gradient placeholder)
 - 🔄 AI-generated gallery images
 - 🔄 Artist portrait photos
-- 🔄 Actual contact information (phone, email, Instagram)
+- 🔄 Actual contact information (phone, email, Instagram, WhatsApp)
 - 🔄 Replace placeholder content with final copy
-- 🔄 Implement contact form backend
 - 🔄 Add Cookiebot integration
 - 🔄 Update Google Maps embed with correct location
 - 🔄 Add Instagram feed embed
@@ -140,11 +139,12 @@ const translations = {
 
 ### Updating Contact Information
 
-Search for and replace:
-- Phone numbers: `+41123456789`
-- Email: `hello@zeros-tattoo.ch`
-- Instagram: `@zeros_tattoo`
-- Address: `Schärenmoosstrasse 80, 8052 Zürich`
+Edit the `contactInfo` object in `src/pages/Contact.jsx` (lines 8-14):
+- `phone`: Phone number (used for tel: link)
+- `email`: Email address (used for mailto: link)
+- `whatsapp`: WhatsApp number (used for WhatsApp link)
+- `instagram`: Instagram profile URL
+- `address`: Physical address (uses translation key)
 
 ### SEO Meta Tags
 
@@ -212,13 +212,9 @@ Output in `dist/` directory.
 3. **GitHub Pages**: Build and deploy dist folder
 4. **Traditional Web Hosting**: Upload dist folder via FTP
 
-### Environment Variables
+### Configuration
 
-No environment variables needed for static site. If adding features requiring API keys:
-
-1. Create `.env` file
-2. Add variables like `VITE_API_KEY=...`
-3. Use in code as `import.meta.env.VITE_API_KEY`
+No special configuration needed. Contact information is managed directly in `src/pages/Contact.jsx`.
 
 ## 🐛 Troubleshooting
 

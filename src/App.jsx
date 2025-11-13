@@ -26,7 +26,7 @@ function AppRoutes({ lang, changeLanguage }) {
 
   return (
     <Routes>
-      <Route index element={<Home lang={lang} />} />
+      <Route index element={<Navigate to={`/${lang}`} replace />} />
       <Route path="gallery" element={<Gallery lang={lang} />} />
       <Route path="about" element={<About lang={lang} />} />
       <Route path="artist" element={<Artist lang={lang} />} />
@@ -60,6 +60,9 @@ function App() {
         
         <Routes>
           <Route path="/" element={<Navigate to="/de" replace />} />
+          <Route path="/de" element={<Home lang="de" />} />
+          <Route path="/en" element={<Home lang="en" />} />
+          <Route path="/es" element={<Home lang="es" />} />
           <Route path="/de/*" element={<AppRoutes lang="de" changeLanguage={changeLanguage} />} />
           <Route path="/en/*" element={<AppRoutes lang="en" changeLanguage={changeLanguage} />} />
           <Route path="/es/*" element={<AppRoutes lang="es" changeLanguage={changeLanguage} />} />

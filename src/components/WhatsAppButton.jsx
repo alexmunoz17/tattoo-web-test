@@ -1,10 +1,6 @@
-import { useState } from 'react';
 import { FaWhatsapp } from 'react-icons/fa';
-import { t } from '../utils/i18n';
 
 function WhatsAppButton({ lang }) {
-  const [isVisible, setIsVisible] = useState(true);
-  
   const phone = '+41123456789'; // Replace with actual phone
   const message = lang === 'de' 
     ? 'Hallo! Ich interessiere mich für ein Tattoo.'
@@ -13,8 +9,6 @@ function WhatsAppButton({ lang }) {
     : 'Hola! Me interesa hacerme un tatuaje.';
   
   const whatsappUrl = `https://wa.me/${phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent(message)}`;
-
-  if (!isVisible) return null;
 
   return (
     <a
